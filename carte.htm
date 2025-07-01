@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carte</title>
+    <style>
+        body{
+            margin-top: 0px;
+            padding-top: 60px;
+            padding-left: 80px;
+        }
+        .gros{
+            display: flex;
+            height: 50px;
+            background-color:white;
+            justify-content: space-between;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            z-index: 100;
+        }
+        .parti1{
+            height: 50px;
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .parti2{
+            display: flex;
+            height: 40px;
+            width: 450px;
+        }
+        .txt{
+            width: 400px;
+            height: 40px;
+        }
+        .cherche{
+            height: 40px; 
+            width: 50px;
+        }
+        .micr{
+            height: 30px;
+            width: 20px;
+            border-radius: 10px;
+        }
+        .connec{
+            height: 55px;
+        }
+        .partigoch{
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            top: 60px;
+        }
+        .femen{
+            height: 50px;
+            width: 50px;
+            padding-top: 10px;
+        }
+         /* pati imaj */
+        .card{
+            width: 300px;
+            height: 270px;
+            border: 1px solid red;  
+            min-width: 300px;
+
+        }
+        .videoimage{
+            height: 150px;
+           margin-bottom: 15px;
+        }
+        .erik{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .videoinfo{
+            height: 100px;
+            display: flex;
+            margin-top: 0px;
+            gap: 5px;
+        }
+        .profilphotos{
+            width: 50px;
+        }
+        .chev{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+        }
+        .contener{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        @media(max-width:756px){
+            .parti3{
+                display: none;
+            }
+            }
+
+        </style>
+</head>  
+<body>
+    <div class="gros">
+    <div class="parti1">
+        <img class="noti" src="notiv.jpg" alt="">
+    <img class="you" src="youtuber.jpg" alt="">
+    </div>
+    <div class="parti2">
+        <input class="txt" type="text" placeholder="tapez votre recherche">
+        <img class="cherche" src="recherche.jpg" alt="">
+        <img class="micr" src="micro.jpg" alt="">  
+    </div>
+    <div class="parti3">
+        <img class="connec" src="connecter.jpg" alt="">
+    </div>
+    </div>
+    <div class="partigoch">
+    <img class="femen" src="akey.jpg" alt="">
+    <img class="femen" src="aboneman.jpg" alt="">
+    <img class="femen" src="aboneman.jpg" alt="">
+    <img class="femen" src="vous.jpg" alt="">
+    <img class="femen" src="historique.jpg" alt="">
+    </div>
+   <!--pati wat vide a-->
+    <div class="contener">
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div><div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div><div class="card">
+            <div class="videoimage">
+                <img class="erik" src="erika.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="erika.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Mon anniversaire.</p>
+                    <p>8.14k views,il y a 2 mois.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="cheval.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="cheval.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Le cheval gris.</p>
+                    <p>5.9k views il y a 1 jour.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="chat.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="chat.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un chat jaune.</p>
+                    <p>4.5k views,il y a 2 jours.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="videoimage">
+                <img class="erik" src="labrador.jpg" alt="">
+            </div>
+            <div class="videoinfo">
+                <div class="profilphotos">
+                    <img class="chev" src="labrador.jpg" alt="">
+                </div>
+                <div class="videotext">
+                    <p>Un Labrador heureux.</p>
+                    <p>6.5k views,il y a 9 jours.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
